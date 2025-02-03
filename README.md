@@ -1,4 +1,3 @@
-```markdown
 # Smart Load Shedding Controller (PIC16F877A)
 
 A utility to manage AC loads during power shedding. This system uses a PIC16F877A microcontroller to monitor voltage/current and control up to 8 outputs via switch inputs, with real-time status displayed on an LCD.
@@ -44,5 +43,3 @@ A utility to manage AC loads during power shedding. This system uses a PIC16F877
     Case 8: PORTD = 10000000  ; Only O8 ON
   ```
 - **Sensor Routines**: `get_AC` and `get_Amp` read analog inputs (calibration required)
-
-```
